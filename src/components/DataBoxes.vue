@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-3 gap-4">
+  <div class="grid md:grid-cols-3 gap-4 mb-10 md:mb-0">
     <!-- Box 1 -->
     <div class="shadow-md bg-blue-100 p-10 text-center rounded">
       <h3 class="text-3xl text-blue-900 font-bold mb-4">Cases</h3>
