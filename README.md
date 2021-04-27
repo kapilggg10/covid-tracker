@@ -17,4 +17,5 @@ npm run build
 
 ### Hosting
 https://ifennz-covidtracker.web.app/
+
 https://ifennz-covidtracker.firebaseapp.com/
