@@ -1,0 +1,8 @@
+{
+  "firebase": {
+    "apiKey": "api_key_goes_here",
+    "authDomain": "auth_domain_here",
+    "databaseURL": "db_url_from_firebase_app",
+    "storageBucket": "bucket_name_goes_here"
+  }
+}

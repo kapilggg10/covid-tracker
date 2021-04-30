@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import moment from 'moment'
+import moment from "moment";
 export default {
   name: "DataTitle",
   props: {
@@ -23,8 +23,8 @@ export default {
   },
   computed: {
     timestamp() {
-      return moment(this.dataDate).format('MMMM Do YYYY, h:mm:ss a')
-    }
-  }
+      return moment(this.dataDate).format("MMMM Do YYYY, h:mm:ss a");
+    },
+  },
 };
 </script>

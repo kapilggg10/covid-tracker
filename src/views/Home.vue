@@ -1,5 +1,5 @@
 <template>
-  <main v-if="!loading">
+  <main v-if="!loading" class="home-container">
     <DataTitle :text="title" :dataDate="dataDate" />
     <CountrySelect
       :countries="countries"
@@ -67,3 +67,14 @@ export default {
   },
 };
 </script>
+<style scoped lang="scss">
+.home-container {
+  height: 75vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+</style>

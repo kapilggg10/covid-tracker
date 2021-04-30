@@ -9,8 +9,8 @@
 
 <script>
 export default {
-  name: 'center-spinner'
-}
+  name: "center-spinner",
+};
 </script>
 
 <style scoped>
