@@ -77,4 +77,9 @@ export default {
     display: none;
   }
 }
+@media screen and (max-height: 700px) {
+  .home-container {
+    max-height: 68vh;
+  }
+}
 </style>

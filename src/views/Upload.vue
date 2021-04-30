@@ -152,4 +152,9 @@ export default {
   max-height: 70vh;
   overflow-y: auto;
 }
+@media screen and (max-height: 700px) {
+  .parent-container {
+    max-height: 65vh;
+  }
+}
 </style>
