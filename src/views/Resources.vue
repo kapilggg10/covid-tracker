@@ -7,9 +7,9 @@
             class="bg-gradient-to-r from-blue-500 to-blue-800 text-white text-lg"
           >
             <th>Resource Link</th>
-            <th>Uploaded By</th>
+            <th class="hidden sm:inline">Uploaded By</th>
             <th class="hidden md:inline">Uploaded At</th>
-            <th class="hidden sm:inline">Resource Type</th>
+            <th>Resource Type</th>
           </tr>
         </thead>
         <tbody>
@@ -23,11 +23,11 @@
                 {{ resource.displayName || "Resource Link" }}
               </a>
             </td>
-            <td>{{ resource.uploadedBy.name }}</td>
+            <td class="hidden sm:inline">{{ resource.uploadedBy.name }}</td>
             <td class="hidden md:inline">
               {{ formatDate(resource.updatedAt) }}
             </td>
-            <td class="hidden sm:inline">
+            <td>
               <span
                 class="category"
                 :class="{
